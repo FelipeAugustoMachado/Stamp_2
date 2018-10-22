@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Profile</h1><br>
+
+<p>
+  <strong>CNPJ:</strong>
+  <%= @empresa.CNPJ %>
+</p>
+
+<p>
+  <strong>Nome:</strong>
+  <%= @empresa.Nome %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @empresa.email %>
+</p>
+
+<p>
+  <strong>Descricao:</strong>
+  <%= @empresa.descricao %>
+</p>
+
+<%= link_to 'Edit', edit_empresa_path(@empresa) %> 
